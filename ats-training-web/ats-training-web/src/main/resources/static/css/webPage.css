@@ -1,0 +1,37 @@
+.employees-title{
+    font-family: "Bell MT";
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+
+}
+.employees-container{
+    width: 50vw;
+    font-family: "Arial";
+}
+
+.employee{
+    margin-bottom: 2vh;
+    font-family: "Arial";
+    font-size: 14px;
+}
+
+.convertToMap-key{
+    font-size: 20px;
+    font-family: "Bell MT";
+    margin-left: 2vw;
+    font-weight: 500;
+    margin-bottom: 2vh;
+}
+
+.ahmad-ibrahim-title{
+    font-size: 20px;
+    font-family: "Bell MT";
+    font-weight: bolder;
+}
+
+.ahmad-ibrahim-span{
+    font-size: 14px;
+    font-family: 'Arial';
+    font-weight: normal;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="css/webPage.css" rel="stylesheet">
+</head>
+<body>
+<div class="employees-container">
+<h1 class="employees-title">Employees</h1>
+<p th:utext="${employees}" />
+</div>
+<div class="employees-container">
+    <h1 class="employees-title">Employees sorted by Salary</h1>
+    <p th:utext="${sortEmployees}" />
+</div>
+<div class="employees-container">
+    <h1 class="employees-title">Department Map</h1>
+    <p th:utext="${convertToMap}" />
+</div>
+<p class="ahmad-ibrahim-title">Record of Ahmad Ibrahim: <span class="ahmad-ibrahim-span" th:text="${findAhmadIbrahim}"/></p>
+<p class="ahmad-ibrahim-title">Names of people with "MOH" in their name: <span class="ahmad-ibrahim-span" th:text="${findMOH}"/></p>
+<p class="ahmad-ibrahim-title">Duplicate IDs: <span class="ahmad-ibrahim-span" th:text="${findDuplicateIDs}"/></p>
+<p class="ahmad-ibrahim-title">Sum of Employee Salaries: <span class="ahmad-ibrahim-span" th:text="${sumSalaries}"/></p>
+
+</body>
+</html>
